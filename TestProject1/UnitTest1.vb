@@ -71,7 +71,7 @@ Namespace TestProject1
 
         <Test>
         Public Sub Test1()
-            Dim connectionString As String = "Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=KITE;Data Source=Himawarithie;Pooling=true;Min Pool Size=10;Max Pool Size=20" ' Replace with your actual connection string
+            Dim connectionString As String = "Blalalalabla;Min Pool Size=10;Max Pool Size=20" ' Replace with your actual connection string
             Dim tableName As String = "stressTest"  ' Replace with your actual table name
             Dim numberOfThreads As Integer = 10 ' Number of threads for stress test
             Dim iterationsPerThread As Integer = 200 ' Number of inserts per thread
